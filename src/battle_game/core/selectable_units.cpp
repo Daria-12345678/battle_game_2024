@@ -1,4 +1,6 @@
 #include "battle_game/core/game_core.h"
+#include "battle_game/core/units/soldier.h"
+
 
 namespace battle_game {
 
@@ -22,6 +24,7 @@ void GameCore::GeneratePrimaryUnitList() {
    * TODO: Add Your Unit Here!
    * */
   ADD_SELECTABLE_UNIT(unit::Tank);
+  ADD_SELECTABLE_UNIT(unit::Soldier); 
 
   unit.reset();
 }
