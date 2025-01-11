@@ -20,7 +20,7 @@ class Tank : public Unit {
   uint32_t fire_count_down_{0};
   uint32_t mine_count_down_{0};
 
-  // Periodic lateral movement
+  // Periodic lateral movement.
   float offset_{0.0f};
   float speed_{4.0f};
   float amplitude_{1.4f};
