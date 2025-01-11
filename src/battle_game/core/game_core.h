@@ -1,6 +1,5 @@
 #pragma once
 #include "battle_game/core/bullet.h"
-#include "battle_game/core/units/soldier.h"
 #include "battle_game/core/bullets/bullets.h"
 #include "battle_game/core/input_data.h"
 #include "battle_game/core/obstacle.h"

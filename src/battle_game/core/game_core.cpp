@@ -1,7 +1,4 @@
 #include "battle_game/core/game_core.h"
-#include "battle_game/core/units/soldier.h"
-
-
 
 namespace battle_game {
 
